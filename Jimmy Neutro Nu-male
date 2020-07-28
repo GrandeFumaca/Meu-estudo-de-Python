@@ -1,0 +1,16 @@
+q=int(input('Digite o primeiro valor: '))
+w=int(input('Digite o segundo valor: '))
+e=int(input("Digite o terceiro valor: "))
+if q>w and q>e:
+    maior=q
+if w>q and w>e:
+    maior=w
+if e>q and e>w:
+    maior=e
+if q<w and q<e:
+    menor=q
+if w<q and w<e:
+    menor=w
+if e<q and e<w:
+    menor=e
+print(f'O menor valor foi {menor}.\nO maior valor foi {maior}.')
